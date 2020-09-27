@@ -26,6 +26,10 @@ gem 'pg', '~> 1.2.3'
 # Use Redis adapter to run Action Cable in production
 gem 'redis', '~> 4.0'
 
+# sidekiq, scheduler
+gem 'sidekiq', '~> 6.1.2'
+gem 'sidekiq-scheduler'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
